@@ -1,0 +1,99 @@
+/* 1. RESET SEDERHANA & GAYA GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    Body {
+        font-family: 'SEGOE UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f6f9;/* Abu-Abu lembut yang nyaman dimata*/
+        color: #4f3845; /* teks abu gelap, bukan hitam pekat */
+        line-height: 1.6;
+ }
+    /*2. STYLING HEADER UTAMA (PARENT ATSAS)*/
+    .header-utama {
+        background-color: #e68ab8; /* pink elegant untuk header */
+        color: #b33d3d; /* teks merah gelap untuk kontras */
+        text-align: center;
+        padding: 30px 20px;
+ }
+    .header-utama h1 {
+        font-size: 28px;
+        margin-bottom: 8px;
+ }
+    .header-utama p {
+        font-size: 16px;
+        color: #0e0a0b;
+ }
+ /* 3. STYLING NAVIGASI */
+.navigasi-web {
+ margin-top: 15px;
+}
+.navigasi-web a {
+    color: #ffffff;
+    text -decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+.navigasi-web a:hover {
+    background-color: #f64695; /* Efek hover saat mouse diarahkan */
+}
+/* 4. PEMBUNGKUS KONTEN UTAMA */
+.konten-utama {
+    max-width: 800px;/* Membatasi lebar agar rapi di layar lebar */
+    margin: 30px auto;
+    padding:  0 20px;
+}
+/* 5. STYLING MASING-MASING SECTION */
+.blok-konten {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px; /* Mmbuat sudut kotak melengkung */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /*  Efek Bayangan lembut */
+}
+.blok-konten h2 {
+    color: #e68ab8;
+    border-bottom: 2px solid #e68ab8;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    
+}
+/* 6. STYLING LIST KEAHLIAN */
+. daftar-skill {
+     margin-left: 20px;
+}
+.daftar-skill li {
+    margin-bottom: 8px;
+}
+/* 7. KARTU PROYEK ( CHILD DI DALAM SECTION PROYEK) */
+.kartu-proyek {
+    background-color: #f9fafc;
+    border-left: 5px solid #e68ab8;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.kartu -proyek h3 {
+    margin-bottom: 5px;
+    color: #e68ab8;
+}
+/* 8. FOOTER */
+.footer-web {
+    background-color: #52173c;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+.footer-bawah a {
+    color: #ff54be;
+    text-decoration: none;
+}
+.footer-bawah a:hover {
+    text-decoration: underline;
+}   
