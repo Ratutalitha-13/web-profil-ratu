@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    Body {
+}
+    
+Body {
         font-family: 'SEGOE UI', Tahoma, Geneva, Verdana, sans-serif;
         background-color: #f4f6f9;/* Abu-Abu lembut yang nyaman dimata*/
         color: #4f3845; /* teks abu gelap, bukan hitam pekat */
