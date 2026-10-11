@@ -3,90 +3,198 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Potofolio Profil Siswa</title>
-    <!-- Menghubungkan CSS dari dalam folder assets/css/ -->
-    <link rel=" stylesheet" href="assets/css/style.css">
+    <title>Portofolio Pribadi</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-<!-- 1. STICKY NAVBAR -->
-<header class="navbar">
-   <div class="logo">porto<span>Siswa</span></div>
-   <nav class="nav-links"
-            <a href="#beranda">Biodata</a> |
-            <a href="#profil">Keahlian</a> |
-            <a href="#keahlian">Proyek</a> |
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">Porto<span>folio.</span></div>
+
+        <nav class="nav-links">
+            <a href="#beranda">Beranda</a>
+            <a href="#profil">Profil</a>
+            <a href="#keahlian">Keahlian</a>
             <a href="#kontak">Kontak</a>
         </nav>
     </header>
 
-   <main>
-      <!-- 2. HERO SECTION -->
-    <section id="beranda" class="section hero"   
-      <div class="container hero-content">
-        <h1>Selamat datang datang di halaman portofolio</h1>
-        <p>Website resmi profil dan portofolio pembelajaran web designkelas 10 SMA</p>
-        <a href="#profil" class="btn-cta">kenali saya</a>
-      <div>
-      </section>
+    <main>
 
-<!-- 3. SECTION PROFIL DIRI (DENGAN PEMANGGILAN GAMBAR LOKAL) -->
-<section id="profil" class="section">
-    <div class="container">
-        <h2 class="section-title">Profil Pengembang</h2>
-        <div class="profile-wrapper">
-            <!-- Wadah Foto Profil -->
-            <div class="profile-image-box">
-                <img src="assets/images/profile.jpg                            " alt="Foto Profil Siswa" class="profile-img">
-            </div>
-            <!-- Wadah Informasi Diri -->
-            <div class="profile-info">
-                <h3>Halo, Saya Siswa Kelas 10</h3>
-                <p class="role-badge">Calon Junior Web Designer & Programmer</p>
+        <!-- BERANDA -->
+        <section id="beranda" class="hero">
+            <div class="container hero-content">
+                <p class="hero-label">WELCOME TO MY WEBSITE</p>
+
+                <h1>Halo, Selamat Datang!</h1>
+
                 <p>
-                    Saat ini saya sedang menempuh pembelajaran web development di sekolah.
-                    Saya mempelajari cara membangun website semantik, pengelolaan versi dengan Git & GitHub,
-                    serta tata kelola aset proyek secara profesional.
+                    Ini adalah website portofolio pribadi saya,
+                    tempat untuk mengenal profil, minat, dan
+                    pembelajaran saya di bidang web design.
                 </p>
-                <ul class="profile-details">
-                    <li><strong>Sekolah:</strong> SMA Plus</li>
-                    <li><strong>Kelas:</strong> 10 SMA</li>
-                    <li><strong>Fokus:</strong> HTML5, CSS3, & Git Version Control</li>
-                </ul>
+
+                <a href="#profil" class="btn-cta">
+                    Kenali Saya → Ratu Talitha Shafa Widya
+                </a>
             </div>
-        </div>
-    </div>
-</section>
+        </section>
 
-<!-- 4. SECTION KEAHLIAN / PROYEK -->
-<section id="keahlian" class="section section-alt">
-    <div class="container">
-        <h2 class="section-title">Keahlian & Pencapaian</h2>
-        <div class="grid-cards">
-            <article class="card">
-                <h3>Struktur Folder & Aset</h3>
-                <p>Mengorganisir file CSS dan gambar ke dalam folder aset secara modular dan teratur.</p>
-            </article>
-            <article class="card">
-                <h3>Sticky Navigation</h3>
-                <p>Menerapkan navigasi halaman modern yang tetap menempel di layar saat digulir.</p>
-            </article>
-            <article class="card">
-                <h3>Git Cloud Deployment</h3>
-                <p>Mempublikasikan perubahan halaman langsung secara online ke GitHub Pages.</p>
-            </article>
-        </div>
-    </div>
-</section>
-</main>
+        <!-- PROFIL DAN FOTO -->
+        <section id="profil" class="section">
+            <div class="container">
 
-<!-- 5. FOOTER -->
-<footer id="kontak" class="footer">
-    <div class="container">
-        <p>&copy; 2026 PortoSiswa SMA. Dibuat di ruang student day.</p>
-        <p>Akses repositori: <a href="https://github.com/Ratutalitha-13/web-profil-ratu" target="_blank">Profil GitHub Siswa</a></p>
-    </div>
-</footer>
+                <h2 class="section-title">Tentang Saya</h2>
+
+                <div class="profile-wrapper">
+
+                    <!-- FOTO DI SEBELAH KIRI -->
+                    <div class="profile-image-box">
+                        <div class="image-frame">
+                            <img
+                                src="assets/images/profile.jpg"
+                                alt="Foto profil saya"
+                                class="profile-img"
+                            >
+                        </div>
+
+                        <p class="image-caption">
+                            ✦ My Personal Profile ✦
+                        </p>
+                    </div>
+
+                    <!-- BIODATA DI SEBELAH KANAN -->
+                    <div class="profile-info">
+                        <p class="small-heading">HELLO THERE!</p>
+
+                        <h3>Halo, Saya Siswa Kelas 10</h3>
+
+                        <p class="role-badge">
+                            Student • Web Design Learner
+                        </p>
+
+                        <p class="profile-description">
+                            Saya sedang belajar membuat website
+                            menggunakan HTML dan CSS. Melalui
+                            pembelajaran ini, saya ingin mengembangkan
+                            kreativitas, kemampuan desain, dan
+                            pengetahuan di bidang teknologi.
+                        </p>
+
+                        <div class="biodata">
+                            <div class="biodata-item">
+                                <span>Nama</span>
+                                <strong>Nama Kamu</strong>
+                            </div>
+
+                            <div class="biodata-item">
+                                <span>Sekolah</span>
+                                <strong>SMA Plus PGRI Cibinong</strong>
+                            </div>
+
+                            <div class="biodata-item">
+                                <span>Kelas</span>
+                                <strong>X Reguler 2</strong>
+                            </div>
+
+                            <div class="biodata-item">
+                                <span>Minat</span>
+                                <strong>Web Design & Teknologi</strong>
+                            </div>
+                        </div>
+
+                        <a href="#keahlian" class="btn-cta">
+                            Lihat Keahlian →
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- KEAHLIAN -->
+        <section id="keahlian" class="section section-alt">
+            <div class="container">
+
+                <h2 class="section-title">Yang Saya Pelajari</h2>
+
+                <p class="section-subtitle">
+                    Beberapa hal yang saya pelajari dalam
+                    pembelajaran web design.
+                </p>
+
+                <div class="grid-cards">
+
+                    <article class="card">
+                        <div class="card-number">01</div>
+                        <h3>HTML</h3>
+                        <p>
+                            Membuat struktur dan isi halaman website
+                            agar tersusun dengan baik.
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-number">02</div>
+                        <h3>CSS</h3>
+                        <p>
+                            Mengatur warna, tata letak, ukuran,
+                            dan tampilan website.
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-number">03</div>
+                        <h3>Git & GitHub</h3>
+                        <p>
+                            Menyimpan perubahan kode dan
+                            mempublikasikan website secara online.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- KONTAK -->
+        <section id="kontak" class="section">
+            <div class="container">
+                <div class="contact-box">
+                    <p class="small-heading">LET'S CONNECT</p>
+
+                    <h2>Terima Kasih Sudah Berkunjung!</h2>
+
+                    <p>
+                        Website ini dibuat sebagai bagian dari
+                        pembelajaran Web Design kelas 10.
+                    </p>
+
+                    <a href="#beranda" class="btn-cta">
+                        Kembali ke Atas ↑
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Portofolio Pribadi. Dibuat dengan HTML & CSS.</p>
+        
+      <!-- LINK GITHUB -->
+        <p>
+            GitHub:
+            <a href="https://github.com/Ratutalitha-13/web-profil-ratu"
+               target="_blank">
+                Lihat Repository Saya
+            </a>
+        </p>     
+        </div>
+    </footer>
 
 </body>
 </html>
